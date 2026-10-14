@@ -1,0 +1,24 @@
+{
+  "id": "./public.html",
+  "name": "দক্ষিণ নগর কসবা (কাগজি পাড়া) — পাবলিক ড্যাশবোর্ড",
+  "short_name": "Kagji Para",
+  "description": "দক্ষিণ নগর কসবা (কাগজি পাড়া) — আর্থিক ড্যাশবোর্ড, সদস্য পোর্টাল ও রক্তদান",
+  "start_url": "./public.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f3d2e",
+  "theme_color": "#0f3d2e",
+  "lang": "bn",
+  "dir": "ltr",
+  "categories": ["finance", "social", "lifestyle"],
+  "icons": [
+    { "src": "pub-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "pub-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "pub-icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Blood Donation / রক্তদান", "short_name": "Blood", "url": "./blood.html?source=shortcut", "icons": [{ "src": "pub-icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Member Login / সদস্য লগইন", "short_name": "Member", "url": "./member-login.html?source=shortcut", "icons": [{ "src": "pub-icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
